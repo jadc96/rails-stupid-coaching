@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 30px;
+  font-family: 'calibri light', 'sans serif';
+}
+
+a {
+  text-decoration: none;
+}
+
+.question {
+  border-left: 5px solid grey;
+  padding: 10px 10px 1px 10px;
+}
+
+.answer {
+  background-color: rgb(243, 245, 206);
+  border-left: 5px solid grey;
+  padding: 10px 10px 1px 10px;
+  margin-top: 10px;
+}
+
+.speaker {
+  font-style: italic;
+}
